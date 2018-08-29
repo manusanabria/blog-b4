@@ -1,0 +1,52 @@
+/*------------------------------
+    COLORS
+-------------------------------*/
+/*------------------------------
+    OVER BOOTSTRAP
+-------------------------------*/
+.bg-primary {
+  background-color: #2c3e50 !important; }
+
+.text-primary {
+  color: #2c3e50 !important; }
+
+.btn-primary {
+  background-color: #7f8c8d !important;
+  color: #fff !important;
+  border-color: #060707 !important; }
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #667273 !important;
+  color: #fff !important; }
+
+.btn-primary:active {
+  background-color: #4e5758 !important;
+  border-color: #363c3d !important; }
+
+.btn-primary:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(44, 62, 80, 0.5) !important;
+          box-shadow: 0 0 0 0.2rem rgba(44, 62, 80, 0.5) !important; }
+
+/*------------------------------
+    DESIGN STYLES
+-------------------------------*/
+html {
+  font-size: 14px; }
+
+body {
+  color: #44484a;
+  font-family: 'Open Sans', sans-serif; }
+
+.card:hover {
+  -webkit-box-shadow: 0 0 10px #0c0c0c3b;
+          box-shadow: 0 0 10px #0c0c0c3b; }
+
+/*------------------------------
+    MEDIA QUERIES
+-------------------------------*/
+@media (min-width: 768px) {
+  html {
+    font-size: 16px; } }
+
+/*# sourceMappingURL=styles.css.map */

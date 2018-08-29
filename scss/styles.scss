@@ -1,0 +1,70 @@
+/*------------------------------
+    COLORS
+-------------------------------*/
+
+$main: #2c3e50;
+$text-title: #2c3e50;
+$text-body: #44484a;
+$button: #7f8c8d;
+
+/*------------------------------
+    OVER BOOTSTRAP
+-------------------------------*/
+
+.bg-primary {
+    background-color: $main !important;
+}
+
+.text-primary {
+    color: $text-title !important;
+}
+
+.btn-primary {
+    background-color: #7f8c8d !important;
+    color: #fff !important;
+    border-color: darken($button, 50%) !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: darken($button, 10%) !important;
+    color: #fff !important;
+}
+
+.btn-primary:active {
+    background-color: darken($button, 20%) !important;
+    border-color: darken($button, 30%) !important;
+}
+
+.btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba($main, .5) !important;
+}
+
+
+/*------------------------------
+    DESIGN STYLES
+-------------------------------*/
+
+html {
+    font-size: 14px;
+}
+
+body {
+    color: $text-body;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card:hover {
+    box-shadow: 0 0 10px #0c0c0c3b;
+}
+
+
+/*------------------------------
+    MEDIA QUERIES
+-------------------------------*/
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
